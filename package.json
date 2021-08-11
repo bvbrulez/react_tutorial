@@ -1,0 +1,31 @@
+{
+  "name": "react_tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial for react",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "npx servor",
+    "compile": "babel src --out-dir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bvbrulez/react_tutorial.git"
+  },
+  "keywords": [
+    "react",
+    "git",
+    "jsx"
+  ],
+  "author": "Markus Niemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bvbrulez/react_tutorial/issues"
+  },
+  "homepage": "https://github.com/bvbrulez/react_tutorial#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-react": "^7.14.5"
+  }
+}
